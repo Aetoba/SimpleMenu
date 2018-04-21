@@ -1,0 +1,140 @@
+.App {
+  margin-bottom: 125px;
+}
+
+.Legend {
+  margin: 30px;
+}
+
+.Legend img {
+  height: 14px;
+  width: 14px;
+  object-fit: contain;
+}
+
+.Legend .Legend-items {
+  display: block;
+  list-style: none;
+}
+
+
+.Menus {
+  display: flex;
+  justify-content: center;
+}
+
+.Menus .MenuTitleStyle {
+  font-size: 20px;
+  height: 20px;
+  font-weight: bold;
+  margin: 12px 0px;
+}
+
+.Menus .MenuTitle {
+  display: flex;
+}
+
+.Menus .MenuTitle .Title {
+  min-width: 170px;
+  align-self: center;
+}
+
+.Menus .MenuTitle .Title .MenuNameInput {
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Times, sans-serif;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  padding-left: 5px;
+  position: relative;
+  right: 6px;
+}
+
+.Menus .ItemStyle {
+  height: 16px;
+  font-size: 16px;
+  margin: 5px 0px;
+}
+
+.Menus .Item {
+  display: flex;
+}
+
+.Menus .Item .Name {
+  min-width: 115px;
+  margin-right: 5px;
+  align-self: center;
+}
+
+.Menus .Item .Price {
+  min-width: 50px;
+  text-align: right;
+  align-self: center;
+}
+
+.Menus .Item .Name .ItemNameInput {
+  height: 16px;
+  width: 110px;
+  font-size: 16px;
+  font-family: Times, sans-serif;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  padding-left: 5px;
+  position: relative;
+  right: 6px;
+}
+
+.Menus .Item .Price .ItemPriceInput {
+  height: 16px;
+  width: 40px;
+  font-size: 16px;
+  font-family: Times, sans-serif;
+  text-align: right;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  align-self: right;
+  padding-right: 5px;
+  position: relative;
+  left: 4px;
+}
+
+.Menus .Buttons {
+  display: flex;
+  height: 100%;
+  align-self: flex-end;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.Menus .ItemStyle .Buttons {
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.Menus .Buttons input {
+  height: 70%;
+  margin-right: 5px;
+  align-self: center;
+}
+
+
+.Menus .MenuTitle .Buttons {
+  opacity: 0;
+}
+
+.Menus .MenuTitle:hover .Buttons {
+  opacity: 1 ;
+}
+
+.Menus .Item .Buttons {
+  opacity: 0;
+}
+
+.Menus .Item:hover .Buttons {
+  opacity: 1;
+}
+
+.Menus .center{
+  text-align: center;
+}
